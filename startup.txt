@@ -1,0 +1,7 @@
+python -m venv .venv
+
+.venv\Scripts\activate 
+
+.venv\Scripts\deactivate
+
+python -m pip freeze > config/requirements.txt

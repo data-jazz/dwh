@@ -1,0 +1,6 @@
+product_id,name,price,billing_cycle
+prd_2,monthly_subscription,125,1
+prd_3,,110,6
+prd_2,monthly_subscription,125,1
+prd_1,annual_subscription,1200,12
+prd_2,monthly_subscription,125,1
