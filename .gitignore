@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# manual addition by moi
+*.pyc
+
 # C extensions
 *.so
 
@@ -31,6 +34,24 @@ MANIFEST
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
+
+# manual addition by moi
+#-------------------------------------
+# Ignore Docker volume and temporary files
+*.log
+*.pid
+*.swp
+docker-compose.override.yml
+.docker/
+
+# Airflow logs and temporary files
+airflow/logs/
+airflow-scheduler.pid
+*.pid
+airflow/logs/
+
+config/
+#-------------------------------------
 
 # Installer logs
 pip-log.txt
